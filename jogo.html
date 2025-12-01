@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">  
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilos.css">
+        <script src="jogo.js"></script>
+
+        <title>Jogo de adivinhação</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Jogo de adivinhação</h1>
+            <p>Esse jogo é para saber se você acerta o número correto definido pelo computador!</p>
+        </header>
+
+        <main>
+            <section>
+                <form type="submit" id="form">
+                    <label for="palpite">Insira seu palpite</label>
+                    <input type="number" id="palpite" name="palpite" required />
+
+                    <button onclick="calcularJogo()" type="submit">
+                        Chutar
+                    </button>
+                </form>
+
+                <p id="resultado"></p>
+                <p id="tentativas"></p>
+            </section>
+            
+            <section>
+
+            </section>
+
+            <section>
+
+            </section>
+        </main>
+        
+        <footer>
+            <p>
+                &copy; 2025 Ricardo Takara - Todos os direitos reservados
+            </p>
+
+            <hr>
+
+            <p>
+                Conecte-se Comigo:
+            </p>
+            <a href="https://www.linkedin.com/in/ricardotakara/">Linkedin</a>
+
+            <br>
+
+            <a href="https://www.facebook.com/ricardo.takara.1830/">Facebook</a>
+        </footer>
+    </body>
+</html>
